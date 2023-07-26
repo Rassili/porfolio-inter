@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;}
+    
+
+header{
+    background-color: gray;
+    width: 100%;
+    position: fixed;/* headr over background*/
+   
+    
+    height: 100px;
+    
+}
+    
+
+
+
+
+ section{
+    padding: 120px 200px;
+ }
+ .main{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background: url(background/background.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;}
+.main h2{
+
+    color:rgb(255, 111, 0);
+    font-size:clamp(35px,8vw, 4em);
+    font-weight:500px; }
+
+.main h2 span{
+    display:inline-block;
+    margin-top:10px;
+    color:aqua;}
+.main h3 {
+    color:aliceblue;
+    font-weight:700;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;}
+
+.main h4{
+    color:aliceblue;
+    font-weight:700;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;}
+
+.main-btn{
+    color: aliceblue;
+    background-color: rgb(255, 106, 0);
+    text-decoration:none;
+    font-size: 1em;
+    font-weight:bolder;
+    display: inline-block;
+    padding:1em 2.213em;
+    border-radius:10px;
+    margin-bottom:40px;
+    transition: 0.5s ease;
+}
+
+.main-btn:hover{
+background-color:rgb(241, 149, 78);
+transform:scale(1.1);
+}
+.social-icons a{
+    color:aliceblue;
+    font-size: 1.4em;
+    padding-right: 10px;
+  
+}
+
+.title2{
+    display: flex;
+    justify-content: center;
+    color:rgb(247, 111, 0);
+    font-size:2.2em;
+    font-weight:800;
+    padding-bottom:30px;
+}
+.title1{
+    display: flex;
+    justify-content: center;
+    color:orangered;
+    margin-bottom: 8%;
+    font-size: 60px;
+}
+.countent{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    
+    background-color: rgb(255, 255, 255);
+    width: 21em;
+    box-shadow: 0 5px 20px rgba(12,12,12, 25%);
+    border-radius: 10px;
+    padding: 25px 2px;
+    transition:0.7s ease;
+}
+.card:hover{
+    background-color:rgb(243, 218, 199);
+transform:scale(1.1);
+}
+.icon{
+    color: rgb(241, 151, 32);
+    font-size:8em;
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin-left:37% ;
+    
+}
+h3{
+    color: rgb(238, 126, 51);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.cards-contacts{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+.icon{
+    font-size: 2.8em;     /* for icons of contact and service*/
+}
+
+
+
+footer{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    
+
+}
+
+.picture{
+    background-color: aliceblue;
+    width: 20em;
+    height:10em;
+    font-size: 20px;
+    box-shadow: 0 5px 20px black;
+    border-radius: 10px;
+    transition: 0.6s ease;
+   
+    
+
+}
+
+.picture:hover{
+    background-color: rgb(185, 180, 180);
+    transform: scale(1.1);
+}
+#content h3{
+   
+   margin-left: 3em ;
+}
+
+
+.fiche{
+    display: grid;
+    grid-template-columns: auto;
+    ;
+    
+}
+
+.img{
+    display: grid;
+    grid-template-columns: auto;
+    width: 50%;
+    height: 50%;
+}
+.background{
+    background: url(./background/Coding\ BG.jpg);
+    background-size: cover;
+}
+.all-pics{
+    padding-left: 30%;
+}
+
+
+/*responsive*/
+
+label.logo{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 50% 100px;
+    
+}
+.logo span{
+    color: orangered;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+}
+
+nav ul li a{
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 40px;
+    text-decoration: none;
+    letter-spacing:2px;
+    border-radius: 15px;
+    
+}
+a:hover{
+    background: orangered;
+    transition: 1s ;
+}
+.check-btn{
+    font-size:60px;
+    color: orangered;
+    float: right;
+    line-height: 100px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    transition:0.5s;
+}
+
+#check{
+    display: none;
+}
+@media (max-width:950px){
+    label.logo{
+        font-size: 50px;
+        padding-left: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        
+    }
+    img{
+       width: 400px;
+    }
+    .all-pics{
+            display:grid;
+            grid-template-columns: auto;
+            padding: 0;
+    }
+    .cards-contacts{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    
+    }
+    #exeption{
+        display: none;
+    }
+        
+         }
+
+
+
+@media (max-width:850px){
+    .check-btn{
+        display: block;
+    }
+    nav{
+        height: 80px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: gray;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition:all 0.5s
+    }
+    nav ul li{
+        display: block;
+        margin:20% 0;
+        line-height:30px;
+    }
+    nav ul li a{
+        text-size: 20px;
+        letter-spacing: 2px;
+    }
+    a:hover{
+        background:none;
+        color: orangered;
+    }
+    #check:checked ~ ul
+    {
+        left: 0;}
+
+        .cards h2{
+            display: flex;
+            float: right;
+        font-size: 40px;}
+        
+            .content{
+                display: flex;
+                float: right;
+                padding-top: 100px;
+            }
+            .img{
+                padding-left: 0;
+                margin-left: 0;
+                width: 500px;
+            }
+            .cards-contacts{
+                display: grid;
+                grid-template-columns: auto;
+                justify-content: center;
+            
+            }
+            #exeption{
+                display: none;
+            }
+        }
+
+       
+ @media (max-width: 500px) {
+    .all-pics{
+        display:grid;
+        grid-template-columns: auto;
+        padding: 0;
+
+    }
+    .img{
+        padding-left: 0;
+        margin-left: 0;
+        width: 500px;
+    }
+    .cards-contacts{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        
+    
+    }
+    #exeption{
+        display: none;
+    }
+ }   
